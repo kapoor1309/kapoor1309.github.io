@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Parshiv Kapoor — About</title>
+<link rel="stylesheet" href="styles.css">
+</head><body>
+<header><nav>
+  <a class="active" href="index.html">About</a>
+  <a href="resume.html">Resume</a>
+  <a href="research.html">Research</a>
+  <a href="news.html">News</a>
+  <a href="blog.html">Blog</a>
+  <a href="colab.html">Collaboration</a>
+</nav></header>
+
+<main class="container">
+  <h1>Parshiv Kapoor</h1>
+  <p class="lead">Engineering student at IIT Roorkee. Medical imaging, robustness, interpretability, and VLM reasoning. 5th in SeePhys @ ICML 2025.</p>
+
+  <div class="grid grid-2" style="align-items:center">
+    <div>
+      <p>I build reliable, practical AI systems—surgical video, LiDAR–camera fusion, scene-graph reasoning for VLMs.</p>
+      <p>
+        <a class="btn" href="mailto:you@email.com">Email</a>
+        <a class="btn" href="https://github.com/kapoor1309" target="_blank">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/your-handle" target="_blank">LinkedIn</a>
+        <a class="btn" href="resume.pdf" target="_blank">Download CV</a>
+      </p>
+    </div>
+    <div><img class="avatar" src="profile.jpg" alt="Parshiv"></div>
+  </div>
+
+  <h2>Highlights</h2>
+  <div class="grid grid-2">
+    <div class="card"><h3>SeePhys @ ICML 2025</h3><p>Ranked 5/2000+ via VLM pipeline combining schematic interpretation + NLU.</p></div>
+    <div class="card"><h3>Instrument Triplets</h3><p>Weakly-supervised {instrument, verb, target} recognition & localization.</p></div>
+  </div>
+
+  <footer>© <span id="y"></span> Parshiv Kapoor</footer>
+</main>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body></html>
