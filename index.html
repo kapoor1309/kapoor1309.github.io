@@ -1,11 +1,12 @@
 <!DOCTYPE html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Parshiv Kapoor — About</title>
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=5">
 </head><body>
 <header><nav>
   <a class="active" href="index.html">About</a>
-  <a href="resume.pdf">Resume</a>
+  <a href="resume.pdf" target="_blank">Resume</a>
   <a href="research.html">Research</a>
   <a href="news.html">News</a>
   <a href="blog.html">Blog</a>
@@ -14,32 +15,52 @@
 
 <main class="container">
   <h1>Parshiv Kapoor</h1>
-  <p class="lead">Hi, I'm Parshiv Kapoor, a pre-final year undergrad at IIT Roorkee, working on turning research into reliable and practical AI systems. My work primarily revolves around medical imaging, robustness and interpretability, reasoning in vision-language models via scene graph generation, and AI agents. Previously, I’ve designed and deployed AI systems during my internship at WhyMinds Global, and co-authored papers at AAAI SAPP and ICVGIP.
+  <p class="lead">
+    Hi, I'm Parshiv Kapoor, a pre-final year undergrad at IIT Roorkee, working on turning research into reliable and practical AI systems. 
+    My work primarily revolves around medical imaging, robustness and interpretability, reasoning in vision-language models via scene graph generation, and AI agents. 
+    Previously, I’ve designed and deployed AI systems during my internship at WhyMinds Global, and co-authored papers at AAAI SAPP and ICVGIP.
+  </p>
 
-Recently, I achieved 5th rank globally in the SeePhys Challenge @ ICML 2025 — a large-scale vision-language competition on physics reasoning involving 2,000+ multimodal problems and 2,200+ diagrams — by building a VLM-based system that combined schematic interpretation with natural language understanding.
+  <p>
+    Recently, I achieved <b>5th rank globally in the SeePhys Challenge @ ICML 2025</b> — 
+    a large-scale vision-language competition on physics reasoning involving 2,000+ multimodal problems and 2,200+ diagrams — 
+    by building a VLM-based system that combined schematic interpretation with natural language understanding.
+  </p>
 
-Always eager to bridge research and real-world impact through scalable, explainable AI.</p>
+  <p>
+    Always eager to bridge research and real-world impact through scalable, explainable AI.
+  </p>
 
   <div class="grid grid-2" style="align-items:center">
     <div>
-      <p>I build reliable, practical AI systems—surgical video, scene-graph reasoning for VLMs.</p>
+      <p>I build reliable, practical AI systems — surgical video analysis, medical imaging, and scene-graph reasoning for VLMs.</p>
       <p>
-        <a class="btn" href="parshiv_k@bt.iitr.ac.in">Email</a>
+        <a class="btn" href="mailto:parshiv_k@bt.iitr.ac.in">Email</a>
         <a class="btn" href="https://github.com/kapoor1309" target="_blank">GitHub</a>
         <a class="btn" href="https://www.linkedin.com/in/parshiv-kapoor-439564280/" target="_blank">LinkedIn</a>
         <a class="btn" href="resume.pdf" target="_blank">Download CV</a>
       </p>
     </div>
-    <div><img class="avatar" src="profile.jpg" alt="Parshiv"></div>
+    <div><img class="avatar" src="profile.jpg" alt="Parshiv Kapoor"></div>
   </div>
 
   <h2>Highlights</h2>
   <div class="grid grid-2">
-    <div class="card"><h3>SeePhys @ ICML 2025</h3><p>Ranked 5/2000+ via VLM pipeline combining schematic interpretation + NLU.</p></div>
-    <div class="card"><h3>Instrument Triplets</h3><p>Weakly-supervised {instrument, verb, target} recognition & localization.</p></div>
+    <div class="card">
+      <h3>SeePhys @ ICML 2025</h3>
+      <p>Ranked 5<sup>th</sup> globally among 2000+ teams with a VLM-based reasoning pipeline combining schematic interpretation and natural language understanding.</p>
+    </div>
+
+    <div class="card">
+      <h3>Research Paper Acceptances</h3>
+      <ul>
+        <li><b>6 Oct 2025</b> — Paper accepted at <i>ICVGIP 2025</i> (Indian Conference on Computer Vision, Graphics and Image Processing).</li>
+        <li><b>21 Oct 2025</b> — Two papers accepted at <i>AAAI 2025 Student Abstract Track</i> (AAAI Conference on Artificial Intelligence).</li>
+      </ul>
+    </div>
   </div>
 
   <footer>© <span id="y"></span> Parshiv Kapoor</footer>
 </main>
-<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body></html>
