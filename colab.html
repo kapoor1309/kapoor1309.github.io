@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Parshiv Kapoor — Collaborations</title>
+  <style>
+    :root { --fg:#1b1f23; --muted:#586069; --link:#0366d6; --bg:#ffffff; --card:#f6f8fa; }
+    * { box-sizing: border-box; }
+    body { margin:0; font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:var(--fg); background:var(--bg); }
+    .container { max-width:900px; margin:0 auto; padding:24px 16px 64px; }
+    header { border-bottom:1px solid #eaecef; background:#fff; position:sticky; top:0; }
+    nav { max-width:900px; margin:0 auto; display:flex; gap:16px; padding:10px 16px; overflow:auto; }
+    nav a { text-decoration:none; color:var(--fg); padding:6px 10px; border-radius:8px; }
+    nav a.active, nav a:hover { background:var(--card); }
+    h1 { margin:24px 0 8px; font-size:28px; }
+    .block { background:var(--card); border:1px solid #eaecef; border-radius:12px; padding:16px; margin:16px 0; }
+    .org { font-weight:600; font-size:20px; margin:0 0 6px; }
+    .role { color:var(--muted); margin:0 0 10px; }
+    .label { font-weight:600; margin:12px 0 4px; }
+    a { color:var(--link); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    footer { margin-top:40px; color:var(--muted); font-size:14px; }
+  </style>
+</head>
+<body>
+  <!-- Top nav (edit links or remove items you don't need) -->
+  <header>
+    <nav>
+      <a href="index.html">About</a>
+      <a href="resume.pdf" target="_blank">Resume</a>
+      <a href="research.html">Research</a>
+      <a href="news.html">News</a>
+      <a href="blog.html">Blog</a>
+      <a class="active" href="colab.html">Collaboration</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Collaborations</h1>
+
+    <!-- BLOCK 1 -->
+    <section class="block">
+      <p class="org"><a href="https://deepmind.google" target="_blank" rel="noopener">Google DeepMind</a></p>
+      <p class="role">Pre-Doctoral Researcher &nbsp;•&nbsp; 2025—present</p>
+      <p class="label">Advisors</p>
+      <p>
+        <a href="https://sujoyp.github.io" target="_blank">Dr. Sujoy Paul</a>,
+        <a href="https://www.prateekjain.org" target="_blank">Dr. Prateek Jain</a>,
+        <a href="https://adityakusupati.github.io" target="_blank">Dr. Aditya Kusupati</a>,
+        <a href="https://sites.google.com" target="_blank">Dr. Pradeep Shenoy</a>
+      </p>
+    </section>
+
+    <!-- BLOCK 2 -->
+    <section class="block">
+      <p class="org"><a href="https://research.adobe.com" target="_blank" rel="noopener">Adobe Research</a></p>
+      <p class="role">Research Intern &nbsp;•&nbsp; Summer 2024</p>
+      <p class="label">Advisors</p>
+      <p>
+        <a href="https://josephkj.in" target="_blank">Dr. Joseph KJ</a>,
+        <a href="https://research.adobe.com" target="_blank">Dr. Balaji Vasan Srinivasan</a>
+      </p>
+      <p class="label">Mentors</p>
+      <p><a href="https://www.linkedin.com" target="_blank">Swasti Shreya Mishra</a></p>
+      <p class="label">Fellow Interns</p>
+      <p>
+        <a href="https://www.linkedin.com" target="_blank">Abhinav Mahajan</a>,
+        Vinay Kumar Cheerla
+      </p>
+    </section>
+
+    <!-- BLOCK 3 -->
+    <section class="block">
+      <p class="org"><a href="https://midas.iiitd.ac.in" target="_blank" rel="noopener">MIDAS Lab, IIIT-Delhi</a></p>
+      <p class="role">Student Researcher &nbsp;•&nbsp; 2023—2024</p>
+      <p class="label">Advisors</p>
+      <p><a href="https://scholar.google.com/citations?user=rXzvKpAAAAAJ" target="_blank">Dr. Rajiv Ratn Shah</a></p>
+      <p class="label">Mentors</p>
+      <p>
+        <a href="https://sarthak268.github.io" target="_blank">Sarthak Bhagat</a>,
+        <a href="https://shagunuppal.github.io" target="_blank">Shagun Uppal</a>
+      </p>
+    </section>
+
+    <footer>
+      © <span id="y"></span> Parshiv Kapoor • <a href="mailto:youremail@domain.com">youremail@domain.com</a>
+    </footer>
+  </main>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
