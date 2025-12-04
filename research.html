@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Research — Parshiv Kapoor</title>
+<link rel="stylesheet" href="styles.css">
+</head><body>
+<header><nav>
+  <a href="index.html">About</a>
+  <a href="resume.html">Resume</a>
+  <a class="active" href="research.html">Research</a>
+  <a href="news.html">News</a>
+  <a href="blog.html">Blog</a>
+  <a href="colab.html">Collaboration</a>
+</nav></header>
+
+<main class="container">
+  <h1>Research</h1>
+
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>LiDAR–Camera Fusion</h3>
+      <p>Real-time detection & distance estimation with YOLOv8 + ROS; chooses LiDAR vs monocular depth.</p>
+      <p><a href="https://github.com/kapoor1309" target="_blank">Code</a></p>
+    </div>
+    <div class="card">
+      <h3>Surgical Action Triplets</h3>
+      <p>Predict {instrument, verb, target} and link boxes under weak supervision; ViT/YOLO hybrid.</p>
+    </div>
+  </div>
+
+  <h2>Publications</h2>
+  <ol>
+    <li><b>Paper title here</b>. Parshiv Kapoor et al., <i>Venue</i>, 2025. <a href="#">PDF</a> • <a href="#">Code</a></li>
+  </ol>
+
+  <footer>© <span id="y"></span> Parshiv Kapoor</footer>
+</main>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body></html>
