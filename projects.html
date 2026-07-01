@@ -1,0 +1,120 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Projects | Parshiv Kapoor</title>
+<meta name="description" content="Selected projects by Parshiv Kapoor: AI agents, vision-language models, medical imaging, and applied ML.">
+<link rel="stylesheet" href="styles.css?v=10">
+</head><body>
+<header><nav>
+  <a class="brand" href="index.html">Parshiv Kapoor</a>
+  <a href="index.html">About</a>
+  <a class="active" href="projects.html">Projects</a>
+  <a href="research.html">Research</a>
+  <a href="news.html">News</a>
+  <a href="resume.pdf" target="_blank">Resume</a>
+</nav></header>
+
+<main class="container">
+  <p class="eyebrow">Selected Work</p>
+  <h1 class="section-title">Projects</h1>
+  <p class="subtle">A selection of things I've built, spanning AI agents, vision-language reasoning, medical imaging, and applied ML.</p>
+
+  <div class="proj-grid" style="margin-top:26px">
+
+    <!-- Warden -->
+    <article class="proj">
+      <div class="proj-cover"><img src="warden-card.png" alt="Warden"></div>
+      <div class="proj-head"><h3>Warden</h3></div>
+      <p class="meta">Security agent crew · Band "Band of Agents" Hackathon</p>
+      <p>A security crew that catches a compromised in-policy agent inside an invoice-approval workflow. A deterministic five-rule gate re-derives the legitimate payee from company records and blocks payment redirects and amount tampering, with HMAC-signed authorization and tamper-evident audit logs. Validated against AgentDojo and InjecAgent attacks.</p>
+      <div class="tags">
+        <span class="tag">Python</span>
+        <span class="tag">LangGraph</span>
+        <span class="tag">FastAPI</span>
+        <span class="tag">Agent Security</span>
+        <span class="tag">HMAC</span>
+      </div>
+      <div class="proj-links">
+        <a href="https://github.com/kapoor1309/warden" target="_blank">GitHub</a>
+      </div>
+    </article>
+
+    <!-- FocusBoard -->
+    <article class="proj">
+      <div class="proj-cover plain"><img src="focusboard-card.png" alt="FocusBoard" style="width:100%;height:100%;object-fit:contain"></div>
+      <div class="proj-head"><h3>FocusBoard</h3></div>
+      <p class="meta">Developer tool</p>
+      <p>A local companion for Claude Code: watch the agent work live (phase, streaming answers, and the tool feed) instead of doom-scrolling during the wait, and X-ray where your tokens actually go.</p>
+      <div class="tags">
+        <span class="tag">JavaScript</span>
+        <span class="tag">Dashboard</span>
+        <span class="tag">Claude Code</span>
+        <span class="tag">Observability</span>
+      </div>
+      <div class="proj-links">
+        <a href="https://github.com/kapoor1309/focusboard" target="_blank">GitHub</a>
+      </div>
+    </article>
+
+    <!-- DLSG-CoT -->
+    <article class="proj">
+      <div class="proj-cover"><img src="dlsgcot.jpg" alt="DLSG-CoT architecture"></div>
+      <div class="proj-head"><h3>DLSG-CoT</h3><span class="tag badge">AAAI 2026</span></div>
+      <p class="meta">Research · Vision-language reasoning</p>
+      <p>Zero-shot vision-language reasoning via a Dual-layer Scene Graph Chain-of-Thoughts. Structures visual scenes into layered scene graphs to guide step-by-step reasoning in VLMs, accepted to the AAAI 2026 Student Abstract Track.</p>
+      <div class="tags">
+        <span class="tag">Python</span>
+        <span class="tag">VLM</span>
+        <span class="tag">Scene Graphs</span>
+        <span class="tag">Reasoning</span>
+      </div>
+      <div class="proj-links">
+        <a href="https://github.com/kapoor1309/DLSG-CoT" target="_blank">GitHub</a>
+        <a href="https://drive.google.com/file/d/1zn5ThawADANYWRBSjTAArhn7r8mnTcUO/view?usp=drive_link" target="_blank">Paper</a>
+      </div>
+    </article>
+
+    <!-- TWiST -->
+    <article class="proj">
+      <div class="proj-cover"><img src="twist.jpg" alt="TWIST architecture"></div>
+      <div class="proj-head"><h3>TWIST</h3><span class="tag badge">AAAI 2026</span></div>
+      <p class="meta">Research · Surgical video understanding</p>
+      <p>Temporal Weakly-Supervised Triplet recognition in surgical videos, identifying &lt;instrument, verb, target&gt; triplets from weak labels using temporal cues. Accepted to the AAAI 2026 Student Abstract Track.</p>
+      <div class="tags">
+        <span class="tag">Python</span>
+        <span class="tag">Video</span>
+        <span class="tag">Weak Supervision</span>
+        <span class="tag">Medical AI</span>
+      </div>
+      <div class="proj-links">
+        <a href="https://github.com/kapoor1309/TWiST" target="_blank">GitHub</a>
+        <a href="https://drive.google.com/file/d/1WSqRObn8RoUcz2CFw9qKSGOn6mluJPPu/view?usp=drive_link" target="_blank">Paper</a>
+      </div>
+    </article>
+
+    <!-- RecallMind -->
+    <article class="proj">
+      <div class="proj-cover logo"><img src="recallmind-logo.svg" alt="RecallMind logo"></div>
+      <div class="proj-head"><h3>RecallMind</h3></div>
+      <p class="meta">Memory infrastructure for LLMs</p>
+      <p>A persistent memory layer for LLMs that stores, retrieves, and de-duplicates facts across sessions so agents can remember context over time. An exploration of the open problems in agent memory: conflict resolution, forgetting, and temporal reasoning.</p>
+      <div class="tags">
+        <span class="tag">Python</span>
+        <span class="tag">LLM Memory</span>
+        <span class="tag">Retrieval</span>
+        <span class="tag">Agents</span>
+      </div>
+      <div class="proj-links">
+        <a href="https://github.com/kapoor1309/recallmind" target="_blank">GitHub</a>
+      </div>
+    </article>
+
+  </div>
+
+  <footer>
+    <span>© <span id="y"></span> Parshiv Kapoor</span>
+    <span><a class="arrow-link" href="https://github.com/kapoor1309" target="_blank">More on GitHub</a></span>
+  </footer>
+</main>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body></html>
