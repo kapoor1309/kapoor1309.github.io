@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Parshiv Kapoor</title>
 <meta name="description" content="Parshiv Kapoor: AI/ML researcher and builder at IIT Roorkee. Vision-language reasoning, medical imaging, and AI agents.">
-<link rel="stylesheet" href="styles.css?v=12">
+<link rel="stylesheet" href="styles.css?v=13">
 </head><body>
 <header><nav>
   <a class="brand" href="index.html">Parshiv Kapoor</a>
@@ -16,16 +16,23 @@
 
 <main class="container">
   <section class="hero">
-    <div class="terminal">
+    <div class="terminal" id="term">
       <div class="term-bar">
         <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
         <span class="term-title">parshiv@iitr: ~/portfolio</span>
       </div>
       <div class="term-body">
-        <p class="tline"><span class="prompt">$</span> whoami</p>
-        <h1 class="term-name">Parshiv Kapoor</h1>
-        <p class="tline"><span class="prompt">$</span> echo $ROLE</p>
-        <p class="term-role">AI / ML Researcher &amp; Builder<span class="cursor"></span></p>
+        <div class="term-out" id="term-out">
+          <p class="tline"><span class="prompt">$</span> whoami</p>
+          <h1 class="term-name">Parshiv Kapoor</h1>
+          <p class="tline"><span class="prompt">$</span> echo $ROLE</p>
+          <p class="term-role">AI / ML Researcher &amp; Builder</p>
+          <p class="term-hint">type <b>help</b> to explore &nbsp;·&nbsp; <b>contact</b> to reach me &nbsp;·&nbsp; or press <b>⌘K</b></p>
+        </div>
+        <form class="term-input-line" id="term-form" autocomplete="off">
+          <span class="prompt2">visitor@parshiv:~$</span>
+          <input id="term-input" spellcheck="false" autocomplete="off" aria-label="terminal input" />
+        </form>
       </div>
     </div>
     <div class="imgwrap"><img class="avatar" src="profile.jpg" alt="Parshiv Kapoor"></div>
@@ -100,4 +107,5 @@
   </footer>
 </main>
 <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+<script src="app.js?v=2" defer></script>
 </body></html>
