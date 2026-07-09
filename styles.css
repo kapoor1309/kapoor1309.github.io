@@ -103,7 +103,7 @@ main.container > .tags { justify-content: center; }
 .page-intro .subtle { margin-left: auto; margin-right: auto; }
 
 /* Hero (terminal + avatar) */
-.hero { display: grid; grid-template-columns: 1fr auto; gap: 34px; align-items: center; }
+.hero { display: grid; grid-template-columns: 1fr auto; gap: 30px; align-items: stretch; }
 .hero-sub { margin: 26px auto 0 !important; color: var(--muted); font-size: 15px; font-weight: 450; }
 .lead { max-width: 58ch; }
 
@@ -143,14 +143,14 @@ main.container > .tags { justify-content: center; }
 }
 @keyframes blink { 0%,50% { opacity: 1; } 50.01%,100% { opacity: 0; } }
 
-.imgwrap { position: relative; }
+.imgwrap { position: relative; display: flex; }
 .imgwrap::after {
-  content: ""; position: absolute; inset: -12px; border-radius: 28px; z-index: -1;
+  content: ""; position: absolute; inset: -12px; border-radius: 22px; z-index: -1;
   background: radial-gradient(closest-side, rgba(91,140,255,0.42), rgba(139,123,255,0.22) 55%, transparent);
   filter: blur(22px); opacity: .85;
 }
 img.avatar {
-  width: 150px; height: 150px; border-radius: 24px; object-fit: cover;
+  width: 230px; height: 100%; border-radius: 14px; object-fit: cover;
   border: 1px solid var(--border-hi); box-shadow: 0 18px 46px rgba(0,0,0,0.55);
 }
 .actions { justify-content: center; }
